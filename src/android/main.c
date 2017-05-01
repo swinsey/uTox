@@ -456,7 +456,7 @@ void redraw(void) {
     _redraw = 1;
 }
 
-void force_redraw(void) {
+void force_redraw(void *UNUSED(args)) {
     redraw();
 }
 
